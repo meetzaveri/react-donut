@@ -1,9 +1,7 @@
 # react-doughnut 🍩
 Simple and editable Doughnut Chart for react components
 
-### DEMO
-
-https://react-donut-mfquwypnpg.now.sh/
+### Watch Demo [here](https://react-donut-mfquwypnpg.now.sh/)
 
 
 ## Screenshots
