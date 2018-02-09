@@ -1,0 +1,103 @@
+.legend{
+    border:1px solid #ccc;
+    display:table;
+    position:absolute;
+    left:350px;
+    top:50px;
+    background-color:#f1f1f1;
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .piecol{
+    width:10px;
+    height:10px;
+    display:block;
+  }
+  #skizze{
+    background-color:#88dd22;
+  }
+  #konzept{
+    background-color: #ee8800;
+  }
+  #outline{
+    background-color: #0077ee;
+  }
+  #color{
+    background-color: #ee55ee;
+  }
+  #shading{
+    background-color: #9900dd;
+  }
+  .legend h4{
+    display:table-cell;
+  }
+  .piechart {
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+  }
+  .piechart div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    clip: rect(0px, 300px, 300px, 150px);
+  }
+  .piechart > div:first-child {
+    clip: auto;
+  }
+  .piechart div div {
+    clip: rect(0px, 150px, 300px, 0px);
+  }
+  .piechart .doughnut {
+    top: 75px;
+    left: 75px;
+    background: white;
+    width: 150px;
+    height: 150px;
+    display: block;
+    clip: auto;
+  }
+  
+  #slice1 {
+    background: #88dd22;
+  }
+  
+  #slice2 {
+    -webkit-transform: rotate(90deg);
+  }
+  
+  #slice2 .pie {
+    background-color: #ee8800;
+    -webkit-transform: rotate(90deg);
+  }
+  
+  #slice3 {
+    -webkit-transform: rotate(180deg);
+  }
+  
+  #slice3 .pie {
+    background-color: #0077ee;
+    -webkit-transform: rotate(45deg);
+  }
+  
+  #slice4 {
+    -webkit-transform: rotate(225deg);
+  }
+  
+  #slice4 .pie {
+    background-color: #ee55ee;
+    -webkit-transform: rotate(90deg);
+  }
+  
+  #slice5 {
+    -webkit-transform: rotate(315deg);
+  }
+  
+  #slice5 .pie {
+    background-color: #9900dd;
+    -webkit-transform: rotate(45deg);
+  }
+  
