@@ -64,9 +64,7 @@ Simple and editable Doughnut Chart for react components
 ## Usage
 
 ```js
-import Doughnut from './containers/donut';
-import { ProgressBar } from './containers/progress-layer-donut';
-
+import Doughnut from './donut';
 
 ReactDOM.render(<Doughnut 
 hasEqualParts={true} 
