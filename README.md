@@ -1,5 +1,5 @@
 # react-doughnut 🍩
-Simple and customizable Doughnut Chart for react components.
+Simple and customizable doughnut chart component for react projects.
 
 ### Watch Demo [here](https://react-donut-mfquwypnpg.now.sh/)
 
