@@ -1,0 +1,12 @@
+.modified_medium_wrapper {
+  top: -91px;
+  background: transparent;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  left: 64px;
+}
+.modified_large_wrapper {
+  top: -190px;
+  background: transparent;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  left: 30px;
+}
