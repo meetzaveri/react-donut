@@ -7,9 +7,9 @@ import { ProgressBar } from "./containers/progress-layer-donut";
 
 ReactDOM.render(
   <Doughnut
-    hasEqualParts={true}
+    hasEqualParts={false}
     doughnutsize="large"
-    doughnutparts={5}
+    doughnutparts={4}
     doughnutcolors={{
       c1: "#D1A917",
       c2: "#2C9DC2",
