@@ -6,7 +6,7 @@ Simple and customizable doughnut chart component for react projects.
 
 ## Screenshots
 ![alt text](https://i.imgur.com/KwOHGc9.png)
-![alt text](https://i.imgur.com/1RcM4Ef.png)
+
 
 ## API
 
