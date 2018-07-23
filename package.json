@@ -1,6 +1,6 @@
 {
-  "name": "cra-donut",
-  "version": "0.1.6",
+  "name": "react-doughnut",
+  "version": "1.1.8",
   "private": false,
   "dependencies": {
     "classnames": "^2.2.6",
