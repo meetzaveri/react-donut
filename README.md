@@ -1,5 +1,5 @@
 # react-doughnut 🍩
-Simple and customizable doughnut chart component for react projects. This app is bootstrapped with create-react-app(Scaffolding)
+Simple and customizable doughnut chart component for react projects.
 
 ## Installation
 [![NPM version](https://img.shields.io/badge/npm-1.1.8-brightgreen.svg)](https://www.npmjs.com/package/react-doughnut)
