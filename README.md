@@ -60,12 +60,6 @@ npm install react-doughnut
 		  <td>{p1:5,p2:20,p3:25,p4:30,p5:20}</td>
 		  <td>Pass values if you passed "false" to `hasEqualParts` props. This will randomize values of specific parts. </td>
 		</tr>
-    <tr>
-      <td>completionrate(Optional - only if you selected Progress Bar Doughnut)</td>
-      <td>number</td>
-      <td>240(You have to select out of 360. ie.e 240/360 that means 66%)</td>
-      <td>Pass number value which is calculated out of 360 and percentage value is calculated. You will be prompted as to set circle as Set '+' '-' from which you can set</td>
-    </tr>
   </tbody>
 </table>
 
