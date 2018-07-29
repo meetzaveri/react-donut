@@ -1,31 +1,26 @@
-import React from 'react';
-import Circle from './circle';
-import MediumSizedDoughnut from './medium';
-import LargeSizedDoughnut from './large';
-import SmallSizedDoughnut from './small';
+import React from "react";
+import Doughnut from "./oneUnit";
+import Errorboundary from "../../components/ErrorBoundary";
 
-class Main extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-
-        }
-    }
-
-    render(){
-        if(this.props.chartSize == 'large'){
-            return (<LargeSizedDoughnut  bgclr="white" shouldRemainEqual={this.props.toggleEquality} paintShades={this.props.colorobject} pievalues={this.props.valuesobject}/>);
-        }
-        else if(this.props.chartSize == 'medium') {
-            return (<MediumSizedDoughnut  bgclr="white" shouldRemainEqual={this.props.toggleEquality} paintShades={this.props.colorobject} pievalues={this.props.valuesobject}/>);
-        }
-        else if(this.props.chartSize == 'small') {
-            return (<SmallSizedDoughnut  bgclr="white" shouldRemainEqual={this.props.toggleEquality} paintShades={this.props.colorobject} pievalues={this.props.valuesobject}/>);
-        }
-        else {
-            return(<Circle shouldRemainEqual={this.props.toggleEquality} paintShades={this.props.colorobject} pievalues={this.props.valuesobject}/>);
-        }
-    }
-}
+const Main = props => {
+  let widthoffset = 0;
+  if (props.chartSize == "medium") {
+    widthoffset = 37;
+  } else if (props.chartSize == "small") {
+    widthoffset = 75;
+  }
+  return (
+    <Errorboundary>
+      <Doughnut
+        chartSize={props.chartSize}
+        widthoffset={widthoffset}
+        bgclr="white"
+        shouldRemainEqual={props.toggleEquality}
+        paintShades={props.colorobject}
+        pievalues={props.valuesobject}
+      />
+    </Errorboundary>
+  );
+};
 
 export default Main;

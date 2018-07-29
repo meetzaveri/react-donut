@@ -1,12 +1,20 @@
 # react-doughnut 🍩
 Simple and customizable doughnut chart component for react projects.
 
+## Installation
+[![NPM version](https://img.shields.io/badge/npm-1.1.8-brightgreen.svg)](https://www.npmjs.com/package/react-doughnut)
+
+Using npm:
+```
+npm install react-doughnut
+```
+
 ### Watch Demo [here](https://react-donut-mfquwypnpg.now.sh/)
 
 
 ## Screenshots
 ![alt text](https://i.imgur.com/KwOHGc9.png)
-![alt text](https://i.imgur.com/1RcM4Ef.png)
+
 
 ## API
 
@@ -52,26 +60,33 @@ Simple and customizable doughnut chart component for react projects.
 		  <td>{p1:5,p2:20,p3:25,p4:30,p5:20}</td>
 		  <td>Pass values if you passed "false" to `hasEqualParts` props. This will randomize values of specific parts. </td>
 		</tr>
-    <tr>
-      <td>completionrate(Optional - only if you selected Progress Bar Doughnut)</td>
-      <td>number</td>
-      <td>240(You have to select out of 360. ie.e 240/360 that means 66%)</td>
-      <td>Pass number value which is calculated out of 360 and percentage value is calculated. You will be prompted as to set circle as Set '+' '-' from which you can set</td>
-    </tr>
   </tbody>
 </table>
 
 ## Usage
 
 ```js
-import Doughnut from './donut';
+import Doughnut from 'react-doughnut';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<Doughnut 
-hasEqualParts={true} 
-doughnutsize="medium" 
-doughnutparts={5} 
-doughnutcolors={{c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A',c4:'#535353',c5:'#AC6946'}} 
-doughnutvalues={{p1:5,p2:20,p3:25,p4:30,p5:20}} 
-completionrate={240}/>, document.getElementById('root'));
+import "./styles.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Doughnut 
+	hasEqualParts={true} 
+	doughnutsize="medium" 
+	doughnutparts={5} 
+	doughnutcolors={{c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A',c4:'#535353',c5:'#AC6946'}} 
+	doughnutvalues={{p1:5,p2:20,p3:25,p4:30,p5:20}} 
+	/>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 ```
 

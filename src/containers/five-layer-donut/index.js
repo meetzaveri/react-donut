@@ -1,5 +1,6 @@
 import React from "react";
 import Doughnut from "./oneUnit";
+import Errorboundary from "../../components/ErrorBoundary";
 
 const Main = props => {
   let widthoffset = 0;
@@ -9,14 +10,16 @@ const Main = props => {
     widthoffset = 75;
   }
   return (
-    <Doughnut
-      chartSize={props.chartSize}
-      widthoffset={widthoffset}
-      bgclr="white"
-      shouldRemainEqual={props.toggleEquality}
-      paintShades={props.colorobject}
-      pievalues={props.valuesobject}
-    />
+    <Errorboundary>
+      <Doughnut
+        chartSize={props.chartSize}
+        widthoffset={widthoffset}
+        bgclr="white"
+        shouldRemainEqual={props.toggleEquality}
+        paintShades={props.colorobject}
+        pievalues={props.valuesobject}
+      />
+    </Errorboundary>
   );
 };
 
