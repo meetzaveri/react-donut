@@ -66,14 +66,27 @@ npm install react-doughnut
 ## Usage
 
 ```js
-import Doughnut from './donut';
+import Doughnut from 'react-doughnut';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<Doughnut 
-hasEqualParts={true} 
-doughnutsize="medium" 
-doughnutparts={5} 
-doughnutcolors={{c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A',c4:'#535353',c5:'#AC6946'}} 
-doughnutvalues={{p1:5,p2:20,p3:25,p4:30,p5:20}} 
-completionrate={240}/>, document.getElementById('root'));
+import "./styles.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Doughnut 
+	hasEqualParts={true} 
+	doughnutsize="medium" 
+	doughnutparts={5} 
+	doughnutcolors={{c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A',c4:'#535353',c5:'#AC6946'}} 
+	doughnutvalues={{p1:5,p2:20,p3:25,p4:30,p5:20}} 
+	/>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 ```
 
