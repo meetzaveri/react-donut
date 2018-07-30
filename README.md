@@ -9,7 +9,7 @@ Using npm:
 npm install react-doughnut
 ```
 
-### Watch Demo [here](https://react-donut-mfquwypnpg.now.sh/)
+### Codesandbox demo [here](https://codesandbox.io/embed/32ok0v71zm)
 
 
 ## Screenshots
