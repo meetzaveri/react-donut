@@ -68,27 +68,33 @@ npm install react-donut
 ## Usage
 
 ```js
-import Doughnut from "react-doughnut";
 import React from "react";
 import ReactDOM from "react-dom";
-
+import Donut from "react-donut";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <Doughnut
-        hasEqualParts={true}
-        doughnutsize="medium"
-        doughnutparts={5}
-        doughnutcolors={{
+      <h1>Hello CodeSandbox</h1>
+      <Donut
+        shouldRemainEqual={true}
+        doughnutSize="large"
+        doughnutparts={4}
+        paintShades={{
           c1: "#D1A917",
           c2: "#2C9DC2",
           c3: "#D12A6A",
           c4: "#535353",
           c5: "#AC6946"
         }}
-        doughnutvalues={{ p1: 5, p2: 20, p3: 25, p4: 30, p5: 20 }}
+        pievalues={{
+          p1: 5,
+          p2: 20,
+          p3: 25,
+          p4: 30,
+          p5: 20
+        }}
       />
     </div>
   );
@@ -96,4 +102,5 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
 ```
