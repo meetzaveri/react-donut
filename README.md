@@ -1,20 +1,22 @@
-# react-doughnut 🍩
+# react-donut 🍩
+
 Simple and customizable doughnut chart component for react projects.
 
 ## Installation
-[![NPM version](https://img.shields.io/badge/npm-1.1.8-brightgreen.svg)](https://www.npmjs.com/package/react-doughnut)
+
+[![NPM version](https://img.shields.io/badge/npm-1.2.1-brightgreen.svg)](https://www.npmjs.com/package/react-doughnut)
 
 Using npm:
+
 ```
-npm install react-doughnut
+npm install react-donut
 ```
 
-### Watch Demo [here](https://react-donut-mfquwypnpg.now.sh/)
-
+### Codesandbox demo [here](https://codesandbox.io/embed/10p5rkyooj)
 
 ## Screenshots
-![alt text](https://i.imgur.com/KwOHGc9.png)
 
+![alt text](https://i.imgur.com/KwOHGc9.png)
 
 ## API
 
@@ -66,7 +68,7 @@ npm install react-doughnut
 ## Usage
 
 ```js
-import Doughnut from 'react-doughnut';
+import Doughnut from "react-doughnut";
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -75,13 +77,19 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <Doughnut 
-	hasEqualParts={true} 
-	doughnutsize="medium" 
-	doughnutparts={5} 
-	doughnutcolors={{c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A',c4:'#535353',c5:'#AC6946'}} 
-	doughnutvalues={{p1:5,p2:20,p3:25,p4:30,p5:20}} 
-	/>
+      <Doughnut
+        hasEqualParts={true}
+        doughnutsize="medium"
+        doughnutparts={5}
+        doughnutcolors={{
+          c1: "#D1A917",
+          c2: "#2C9DC2",
+          c3: "#D12A6A",
+          c4: "#535353",
+          c5: "#AC6946"
+        }}
+        doughnutvalues={{ p1: 5, p2: 20, p3: 25, p4: 30, p5: 20 }}
+      />
     </div>
   );
 }
@@ -89,4 +97,3 @@ function App() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
-
