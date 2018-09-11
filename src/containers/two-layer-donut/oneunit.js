@@ -80,7 +80,6 @@ const MultipleDoughnutWrapper = props => {
 };
 
 const Circle = props => {
-  console.log('2', props)
   const {p1, p2, p3, p4, p5} = props.pievalues;
   const paintShadesRemaining = {
     p2,

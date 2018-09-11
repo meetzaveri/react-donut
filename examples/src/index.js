@@ -2,9 +2,9 @@ import React from 'react';
 import {render} from 'react-dom';
 import MyComponent from '../../src';
 const App = () => (<MyComponent
-  shouldRemainEqual={false}
+  shouldRemainEqual={true}
   doughnutSize="large"
-  doughnutparts={5}
+  doughnutparts={4}
   paintShades={{
   c1: "#D1A917",
   c2: "#2C9DC2",
