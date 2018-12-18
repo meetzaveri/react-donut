@@ -16,6 +16,8 @@ const Donut = props => {
       return (<ThreeLayerCircle {...props}/>);
     case 2:
       return (<TwoLayerCircle {...props}/>);
+    default:
+      return (<TwoLayerCircle {...props}/>);
   }
 };
 
