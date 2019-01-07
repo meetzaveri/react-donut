@@ -65,6 +65,64 @@ npm install react-donut
   </tbody>
 </table>
 
+## Config for theme
+
+```ts
+ThemeConfig {
+    chart?: {
+        fontFamily?: string;
+        background?: string;
+    };
+    title?: {
+        fontSize?: number;
+        fontFamily?: string;
+        fontWeight?: string;
+        color?: string;
+        background?: string;
+    };
+    yAxis?: {
+        title?: TextStyleConfig;
+        label?: TextStyleConfig;
+        tickColor?: string;
+    };
+    xAxis?: {
+        title?: TextStyleConfig;
+        label?: TextStyleConfig;
+        tickColor?: string;
+    };
+    plot?: {
+        lineColor?: string;
+        background?: string;
+        label?: {
+            fontSize: number;
+            fontFamily: number;
+            color: string;
+        }
+    };
+    series?: {
+        colors?: string[];
+        borderColor?: string;
+        selectionColor?: string;
+        startColor?: string;
+        endColor?: string;
+        overColor?: string;
+        ranges?: any[];
+        borderWidth?: string;
+        dot?: SeriesDotOptions;
+    };
+    legend?: {
+        label?: TextStyleConfig;
+    };
+    tooltip?: any;
+    chartExportMenu?: {
+        backgroundColor?: string;
+        borderRadius?: number;
+        borderWidth?: number;
+        color?: string
+    };
+}
+```
+
 ## Usage
 
 ```js
@@ -102,5 +160,4 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
-
 ```
