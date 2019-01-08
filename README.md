@@ -4,7 +4,7 @@ Simple and customizable doughnut chart component for react projects.
 
 ## Installation
 
-[![NPM version](https://img.shields.io/badge/npm-0.2.0-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
+[![NPM version](https://img.shields.io/badge/npm-1.0.3-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
 
 Using npm:
 
