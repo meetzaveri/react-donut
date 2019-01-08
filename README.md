@@ -32,35 +32,53 @@ npm install react-donut
   </thead>
   <tbody>
     <tr>
-      <td>shouldRemainEqual</td>
+      <td>chartData</td>
+      <td>Array</td>
+      <td>Dummy array of objects</td>
+      <td>To supply actual data with `name` as name and `data` as total data of that item. This is actually array of objects</td>
+    </tr>
+    <tr>
+      <td>chartWidth</td>
+      <td>Number</td>
+      <td>400</td>
+      <td>Specifies width of Doughnut Chart</td>
+    </tr>
+    <tr>
+      <td>chartHeight</td>
+      <td>Number</td>
+      <td>400</td>
+      <td>Specifies height of Doughnut Chart</td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td>String</td>
+      <td>'Usage of browsers'</td>
+      <td>Title for chart</td>
+    </tr>
+    <tr>
+      <td>chartRadiusRange</td>
+      <td>Array</td>
+      <td>["60%", "100%"]</td>
+      <td>Radius range of outer and inner crust of donut </td>
+    </tr>
+   <tr>
+      <td>showChartLabel</td>
       <td>Boolean</td>
       <td>true</td>
-      <td>Divides Donut in equal parts if value is "true". If "false" divided acc. to applied values</td>
+      <td>To enable visibility for chart label</td>
     </tr>
-    <tr>
-      <td>doughnutSize</td>
+	   <tr>
+      <td>legendAlignment</td>
       <td>String</td>
-      <td>medium (additional - large & short)</td>
-      <td>Specifies Size of Doughnut Chart</td>
+      <td>'bottom'</td>
+      <td>Position for alignment of legend</td>
     </tr>
     <tr>
-      <td>doughnutparts</td>
-      <td>Number</td>
-      <td>5 (additional - 1,2,3,4)</td>
-      <td>Parts as of Layer - specifies how many parts it will contain</td>
-    </tr>
-    <tr>
-      <td>paintShades</td>
+      <td>chartThemeConfig</td>
       <td>Object</td>
-      <td>{c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A',c4:'#535353',c5:'#AC6946'}</td>
-      <td>Pass Color Object in respect to parts you specified.for eg. 3 values({c1:'#D1A917',c2:'#2C9DC2',c3:'#D12A6A'}) if you applied for 3 parts()</td>
+      <td>{}</td>
+      <td>Custom chart theme config. Structure as shown below</td>
     </tr>
-    <tr>
-		  <td>pievalues</td>
-		  <td>Object</td>
-		  <td>{p1:5,p2:20,p3:25,p4:30,p5:20}</td>
-		  <td>Pass values if you passed "false" to `hasEqualParts` props. This will randomize values of specific parts. </td>
-		</tr>
   </tbody>
 </table>
 
