@@ -1,6 +1,6 @@
 # react-donut 🍩
 
-Simple and customizable doughnut chart component for react projects.
+A tui-chart wrapper component for donut-chart built for react.
 
 ## Installation
 
