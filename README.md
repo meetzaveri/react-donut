@@ -15,8 +15,7 @@ npm install react-donut
 ### Codesandbox demo [here](https://codesandbox.io/embed/10p5rkyooj)
 
 ## Screenshots
-
-![alt text](https://i.imgur.com/KwOHGc9.png)
+![Donut](https://i.imgur.com/vpxUlBh.png)
 
 ## API
 
