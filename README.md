@@ -12,7 +12,7 @@ Using npm:
 npm install react-donut
 ```
 
-### Codesandbox demo [here](https://codesandbox.io/embed/10p5rkyooj)
+### Codesandbox demo [here](https://codesandbox.io/s/2452rqmjqr)
 
 ## Screenshots
 ![Donut](https://i.imgur.com/vpxUlBh.png)
@@ -152,23 +152,19 @@ function App() {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-      <Donut
-        shouldRemainEqual={true}
-        doughnutSize="large"
-        doughnutparts={4}
-        paintShades={{
-          c1: "#D1A917",
-          c2: "#2C9DC2",
-          c3: "#D12A6A",
-          c4: "#535353",
-          c5: "#AC6946"
-        }}
-        pievalues={{
-          p1: 5,
-          p2: 20,
-          p3: 25,
-          p4: 30,
-          p5: 20
+       <Donut
+        chartData={[
+          { name: "Black Panther", data: 30 },
+          { name: "Avengers", data: 50 },
+          { name: "Antman", data: 20 }
+        ]}
+        chartWidth={300}
+        chartHeight={500}
+        title="Marvel movies that were popular this year"
+        chartThemeConfig={{
+          series: {
+            colors: ["#ffe0bd", "#670303", "#6cbfce"]
+          }
         }}
       />
     </div>
