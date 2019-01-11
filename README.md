@@ -4,7 +4,7 @@ A tui-chart wrapper component for donut-chart built for react.
 
 ## Installation
 
-[![NPM version](https://img.shields.io/badge/npm-1.0.3-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
+[![NPM version](https://img.shields.io/badge/npm-1.0.4-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
 
 Using npm:
 
@@ -15,6 +15,7 @@ npm install react-donut
 ### Codesandbox demo [here](https://codesandbox.io/s/2452rqmjqr)
 
 ## Screenshots
+
 ![Donut](https://i.imgur.com/vpxUlBh.png)
 
 ## API
@@ -152,7 +153,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-       <Donut
+      <Donut
         chartData={[
           { name: "Black Panther", data: 30 },
           { name: "Avengers", data: 50 },
