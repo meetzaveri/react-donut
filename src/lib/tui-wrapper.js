@@ -45,6 +45,12 @@ class Chart extends React.Component {
 
     tui.pieChart(container, data, options);
   }
+
+  componentWillUnmount() {
+    let container = document.getElementById("chart-area");
+    container.innerHTML = "";
+  }
+
   render() {
     return (
       <Errorboundary>
