@@ -83,7 +83,7 @@ npm install react-donut
   </tbody>
 </table>
 
-## Config for theme
+## Config for theme (Optional)
 
 ```ts
 ThemeConfig {
