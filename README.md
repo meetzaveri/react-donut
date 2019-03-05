@@ -35,7 +35,7 @@ npm install react-donut
     <tr>
       <td>chartData</td>
       <td>Array</td>
-      <td>Dummy array of objects</td>
+      <td>An array of objects</td>
       <td>To supply actual data with `name` as name and `data` as total data of that item. This is actually array of objects</td>
     </tr>
     <tr>
