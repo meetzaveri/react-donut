@@ -1,6 +1,6 @@
 # react-donut 🍩
 
-A tui-chart wrapper component for donut-chart built for react.
+A tui-chart wrapper component for donut chart built for react. As it says, its built on top of tui-chart
 
 ## Installation
 
