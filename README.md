@@ -175,3 +175,6 @@ function App() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
+
+## RoadMap
+- To have support for echart's donut
