@@ -177,4 +177,4 @@ ReactDOM.render(<App />, rootElement);
 ```
 
 ## RoadMap
-- To have support for echart's donut
+- Refactor to d3.js 
