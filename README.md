@@ -4,7 +4,7 @@ A tui-chart wrapper component for donut chart built for react. As it says, its b
 
 ## Installation
 
-[![NPM version](https://img.shields.io/badge/npm-1.0.4-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
+[![NPM version](https://img.shields.io/badge/npm-1.1.1-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
 
 Using npm:
 
@@ -12,7 +12,21 @@ Using npm:
 npm install react-donut
 ```
 
-### Codesandbox demo [here](https://codesandbox.io/s/2452rqmjqr)
+## Demo
+
+#### Codesandbox demo [here](https://codesandbox.io/s/2452rqmjqr)
+
+## Contribute
+
+Pre-requisites
+
+- Fork this repo
+- Clone it into your local machine
+
+Steps to start development
+
+- `npm install` to install npm packages
+- `npm run start` to spin up dev server
 
 ## Screenshots
 
@@ -144,10 +158,10 @@ ThemeConfig {
 ## Usage
 
 ```js
-import React from "react";
-import ReactDOM from "react-dom";
-import Donut from "react-donut";
-import "./styles.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Donut from 'react-donut';
+import './styles.css';
 
 function App() {
   return (
@@ -155,26 +169,27 @@ function App() {
       <h1>Hello CodeSandbox</h1>
       <Donut
         chartData={[
-          { name: "Black Panther", data: 30 },
-          { name: "Avengers", data: 50 },
-          { name: "Antman", data: 20 }
+          { name: 'Black Panther', data: 30 },
+          { name: 'Avengers', data: 50 },
+          { name: 'Antman', data: 20 },
         ]}
         chartWidth={300}
         chartHeight={500}
         title="Marvel movies that were popular this year"
         chartThemeConfig={{
           series: {
-            colors: ["#ffe0bd", "#670303", "#6cbfce"]
-          }
+            colors: ['#ffe0bd', '#670303', '#6cbfce'],
+          },
         }}
       />
     </div>
   );
 }
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
 ## RoadMap
-- Refactor to d3.js 
+
+- Refactor to d3.js
