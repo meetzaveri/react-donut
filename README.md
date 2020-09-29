@@ -1,10 +1,10 @@
 # react-donut 🍩
 
-A tui-chart wrapper component for donut chart built for react. As it says, its built on top of tui-chart
+A tui-chart wrapper component for donut chart built for react. Its built on top of tui-chart library. Reference
 
 ## Installation
 
-[![NPM version](https://img.shields.io/badge/npm-1.1.1-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
+[![NPM version](https://img.shields.io/badge/npm-1.1.3-brightgreen.svg)](https://www.npmjs.com/package/react-donut)
 
 Using npm:
 
@@ -14,7 +14,7 @@ npm install react-donut
 
 ## Demo
 
-#### Codesandbox demo [here](https://codesandbox.io/s/2452rqmjqr)
+#### Codesandbox demo [here](https://codesandbox.io/s/infallible-raman-oflzu)
 
 ## Contribute
 
